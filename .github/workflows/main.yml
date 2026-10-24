@@ -25,11 +25,9 @@ jobs:
 
       - name: Build Android APK
         run: |
-          
-unzip -o vezya_android_apk_source.zip -d project
-cd project/vezya_android_apk_source
-gradle assembleDebug
-
+          unzip -o vezya_android_apk_source.zip -d project
+          cd project/vezya_android_apk_source
+          gradle assembleDebug
 
       - name: Save APK
         uses: actions/upload-artifact@v4

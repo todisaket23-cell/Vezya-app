@@ -35,5 +35,4 @@ gradle assembleDebug
         uses: actions/upload-artifact@v4
         with:
           name: Vezya-APK
-          path: project/app/build/outputs/apk/debug/app-debug.apk
-          
+          path: project/vezya_android_apk_source/app/build/outputs/apk/debug/app-debug.apk
